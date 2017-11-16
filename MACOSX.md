@@ -9,4 +9,7 @@ Paste that at a Terminal prompt.
 ## list of tools
 * `brew install autoconf`
 * `brew install automake`
+* `brew install libtool`
+* `brew install gettext`
 * `brew install check`
+* `brew install tree`
