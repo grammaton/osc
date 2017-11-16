@@ -7,7 +7,7 @@
 Sample*
 osc_compute(Sample*out, const Osc*parameters)
 {
-  out->value = parameters->amp*cos(2*PI*parameters->freq*out->time+parameters->phase);
+  out->value = parameters->amp*cos(2*M_PI*parameters->freq*out->time+parameters->phase);
   return out;
 }
 

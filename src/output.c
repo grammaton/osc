@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "osc.h"
 
 void
 output(const Sample*out)
