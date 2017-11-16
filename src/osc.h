@@ -3,9 +3,16 @@
 #include "system.h"
 
 
-typedef struct _osc_
+typedef struct
 {
-        OSCVAR freq;
-        OSCVAR amp;
+  OSCVAR freq;
+  OSCVAR amp;
+  OSCVAR phase;
 }Osc;
+
+typedef struct
+{
+  OSCVAR time;
+  OSCVAR value;
+}Sample;
 #endif

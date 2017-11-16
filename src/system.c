@@ -3,5 +3,5 @@
 OSCVAR
 sample_rate()
 {
-        return SAMPLE_RATE;
+  return SAMPLE_RATE;
 }
