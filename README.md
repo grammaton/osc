@@ -1,5 +1,5 @@
 # `osc`
-A command line oscillator - SPERM project 
+A command line oscillator - SPERM project
 
 Un oscillatore da linea di comando
 
@@ -35,3 +35,11 @@ PBL sulla programmazione in C
 1. controllo `OSC`
 
 1. gui => oscilloscopio, anche oscilloscopio ncurses
+
+----
+
+## References
+
+* [automake manual](https://www.gnu.org/software/automake/manual/html_node/index.html#Top)
+* [autoconf manual](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.69/autoconf.html)
+* [Makefile Conventions](https://www.gnu.org/prep/standards/html_node/Makefile-Conventions.html#Makefile-Conventions)
