@@ -2,9 +2,10 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS])
+AC_INIT([osc], [0], [osc-smerm@smerm.org])
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
+AM_INIT_AUTOMAKE([1.15])
 
 # Checks for programs.
 AC_PROG_CC
