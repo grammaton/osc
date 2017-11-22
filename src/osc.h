@@ -15,4 +15,7 @@ typedef struct
   OSCVAR time;
   OSCVAR value;
 }Sample;
+
+void osc(const Osc*);
+
 #endif
