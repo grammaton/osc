@@ -3,8 +3,10 @@
 
 AC_PREREQ([2.69])
 AC_INIT([osc], [0], [osc-smerm@smerm.org])
+LT_INIT
 AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_MACRO_DIRS([m4])
 AM_INIT_AUTOMAKE([1.15])
 
 # Checks for programs.

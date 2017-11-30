@@ -26,9 +26,9 @@ PBL sulla programmazione in C
 
 1. oscillatore semplice che sputa numeri sul terminale
 
-1. aggiunta di inviluppo esponenziale
+1. aggiunta di opzioni (`getopts`)
 
-2. aggiunta di opzioni (`getopts`)
+1. aggiunta di inviluppo esponenziale
 
 1. uso di librerie esterne (`API`, ecc.)
 
