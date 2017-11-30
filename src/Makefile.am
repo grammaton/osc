@@ -1,4 +1,6 @@
+lib_LTLIBRARIES = libosc.la
 bin_PROGRAMS = osc
-osc_SOURCES = osc.c system.c output.c main.c
-osc_LDADD = $(INTI_LIBS)
-AM_LDFLAGS = -lm
+libosc_la_SOURCES = osc.c system.c output.c
+osc_SOURCES = main.c
+osc_LDADD = $(INTI_LIBS) -losc -lm
+#AM_LDFLAGS = -lm

@@ -167,3 +167,5 @@ Makefile
 *.scan
 
 # End of https://www.gitignore.io/api/c,macos,linux,windows
+
+/m4/
