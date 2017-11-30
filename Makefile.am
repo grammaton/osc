@@ -1,1 +1,2 @@
-bin_PROGRAMS = osc
+AUTOMAKE_OPTIONS = foreign
+SUBDIRS = src doc test

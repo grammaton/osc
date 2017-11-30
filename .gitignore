@@ -1,3 +1,7 @@
+# The target should definitely be ignored
+
+src/osc
+
 # Created by https://www.gitignore.io/api/c,macos,linux,windows
 
 ### C ###
@@ -95,6 +99,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+.deps
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -148,6 +153,10 @@ Makefile.in
 # https://www.gnu.org/software/libtool/
 
 /ltmain.sh
+#
+# Makefiles are generated so they should not be committed
+#
+Makefile
 
 # http://www.gnu.org/software/texinfo
 

@@ -2,10 +2,10 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT([osc],[0], [info@osc.com])
-AC_CONFIG_SRCDIR([.])
+AC_INIT([osc], [0], [osc-smerm@smerm.org])
+AC_CONFIG_SRCDIR([config.h.in])
 AC_CONFIG_HEADERS([config.h])
-AC_CONFIG_FILES([Makefile])
+AM_INIT_AUTOMAKE([1.15])
 
 # Checks for programs.
 AC_PROG_CC
@@ -18,7 +18,8 @@ AC_PROG_CC
 
 # Checks for library functions.
 
-AM_INIT_AUTOMAKE([-Wall no-define])
-AM_LDFLAGS = -lm
-
+AC_CONFIG_FILES([Makefile
+                 doc/Makefile
+                 src/Makefile
+                 test/Makefile])
 AC_OUTPUT
