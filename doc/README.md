@@ -3,6 +3,7 @@
 ## LIBCHECK
 
  * https://libcheck.github.io/check/doc/check_html/check_3.html
+ * http://check.sourceforge.net/doc/check_html/check_3.html#How-to-Write-a-Test
 
 ## AUTOTOOLS
 
