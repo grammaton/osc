@@ -7,6 +7,12 @@ Un oscillatore da linea di comando
 
 `osc [OPTIONS] frq1 ...`
 
+## Comandi di compilazione (con file pristine)
+* glibtoolize
+* autoreconf -i
+* ./configure
+* make
+
 ## Scopo
 
 PBL sulla programmazione in C
