@@ -7,7 +7,9 @@ Un oscillatore da linea di comando
 
 `osc [OPTIONS] frq1 ...`
 
-## Comandi di compilazione (con file pristine)
+## Compilazione (con file pristine)
+Sequenza dei comandi:
+
 * glibtoolize
 * autoreconf -i
 * ./configure
