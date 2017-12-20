@@ -18,13 +18,14 @@ increment_time(Sample*out)
   return out;
 }
 
-void 
+void
 osc(const Osc*parameters)
 {
   Sample s = { 0.0, 0.0 };
   while (1)
   {
-    Sample *o = osc_compute(&s,parameters);
+    Sample *o = &s;
+    o = osc_compute(o,parameters);
     output(o);
 		o = increment_time(o);
 	}
