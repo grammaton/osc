@@ -21,4 +21,8 @@ OSCVAR get_frequency();
 void set_frequency(OSCVAR);
 void set_output(void (*)(const Sample*));
 void (*get_output()) (const Sample*);
+void set_output_initialize(int(*)());
+int (*get_output_initialize())();
+void set_output_terminate(int(*)());
+int (*get_output_terminate())();
 #endif

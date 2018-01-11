@@ -22,6 +22,7 @@ void
 osc(const Osc*parameters)
 {
   Sample s = { 0.0, 0.0 };
+  (*get_output_initialize())();
   while (1)
   {
     Sample *o = &s;
@@ -29,4 +30,5 @@ osc(const Osc*parameters)
     output(o);
 		o = increment_time(o);
 	}
+  (*get_output_terminate())();
 }
