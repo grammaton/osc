@@ -51,3 +51,5 @@ PBL sulla programmazione in C
 * [automake manual](https://www.gnu.org/software/automake/manual/html_node/index.html#Top)
 * [autoconf manual](https://www.gnu.org/savannah-checkouts/gnu/autoconf/manual/autoconf-2.69/autoconf.html)
 * [Makefile Conventions](https://www.gnu.org/prep/standards/html_node/Makefile-Conventions.html#Makefile-Conventions)
+* [PortAudio](http://portaudio.com/docs/v19-doxydocs/index.html)
+* [Getopt](https://www.gnu.org/software/libc/manual/html_node/Getopt.html)
