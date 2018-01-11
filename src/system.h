@@ -5,5 +5,7 @@
 #define OSCVAR double
 
 OSCVAR sample_rate();
+OSCVAR get_frequency();
+void set_frequency(OSCVAR);
 
 #endif
