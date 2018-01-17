@@ -53,3 +53,4 @@ PBL sulla programmazione in C
 * [Makefile Conventions](https://www.gnu.org/prep/standards/html_node/Makefile-Conventions.html#Makefile-Conventions)
 * [PortAudio](http://portaudio.com/docs/v19-doxydocs/index.html)
 * [Getopt](https://www.gnu.org/software/libc/manual/html_node/Getopt.html)
+* [Signals](http://titania.ctie.monash.edu.au/signals/)
