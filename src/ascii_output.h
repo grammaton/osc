@@ -2,7 +2,7 @@
 #	define _output_h_
 
 void ascii_output(const Sample*);
-int ascii_output_initialize();
-int ascii_output_terminate();
+void ascii_output_initialize();
+void ascii_output_terminate();
 
 #endif

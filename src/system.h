@@ -18,11 +18,12 @@ typedef struct
 
 OSCVAR sample_rate();
 OSCVAR get_frequency();
+Osc *get_parameters();
 void set_frequency(OSCVAR);
-void set_output(void (*)(const Sample*));
-void (*get_output()) (const Sample*);
-void set_output_initialize(int(*)());
-int (*get_output_initialize())();
-void set_output_terminate(int(*)());
-int (*get_output_terminate())();
+void set_output(void (*)());
+void (*get_output()) ();
+void set_output_initialize(void(*)());
+void (*get_output_initialize())();
+void set_output_terminate(void(*)());
+void (*get_output_terminate())();
 #endif

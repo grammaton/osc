@@ -3,7 +3,7 @@
 #include "osc.h"
 
 void
-audio_output(const Sample*out)
+audio_output()
 {
-	
+
 }
