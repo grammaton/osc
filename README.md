@@ -7,13 +7,22 @@ Un oscillatore da linea di comando
 
 `osc [OPTIONS] frq1 ...`
 
+## Requirements
+
+* la libreria `portaudio`:
+  * Debian: `apt-get install portaudio19-dev`
+
 ## Compilazione (con file pristine)
+
 Sequenza dei comandi:
 
-* glibtoolize
-* autoreconf -i
-* ./configure
-* make
+```sh
+$ # MacOsx: glibtoolize - Linux/Debian: libtoolize
+$ *libtoolize
+$ autoreconf -i
+$ ./configure
+$ make
+```
 
 ## Scopo
 
