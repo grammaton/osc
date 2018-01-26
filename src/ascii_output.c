@@ -20,6 +20,9 @@ ascii_output()
 	}
 }
 
-void
+int
 ascii_output_terminate()
-{}
+{
+	fflush(stdout);
+	return 0;
+}

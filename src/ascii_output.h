@@ -3,6 +3,6 @@
 
 void ascii_output(const Sample*);
 void ascii_output_initialize();
-void ascii_output_terminate();
+int ascii_output_terminate();
 
 #endif
