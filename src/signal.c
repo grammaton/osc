@@ -6,7 +6,7 @@ static void
 signal_trap(int sig)
 {
   int ret_val = sig;
-  printf("\nCaught signal %d\n", sig);
+  printf("\nosc: Caught signal %d\n", sig);
   ret_val = (*get_output_terminate())();
   exit(ret_val);
 }
