@@ -1,8 +1,14 @@
-#if !defined(_output_h_)
-#	define _output_h_
+#if !defined(_audio_output_h_)
+#	define _audio_output_h_
+
+typedef struct
+{
+  Sample s;
+  Osc o;
+}AudioData;
 
 void audio_output();
 void audio_output_initialize();
-void audio_output_terminate();
+int audio_output_terminate();
 
 #endif

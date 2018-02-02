@@ -1,5 +1,6 @@
 #include "system.h"
 #include "ascii_output.h"
+#include "audio_output.h"
 typedef void(*output_fun)();
 typedef void(*output_initialize_fun)();
 typedef int(*output_terminate_fun)();
@@ -10,7 +11,7 @@ typedef struct
   output_initialize_fun output_initialize;
   output_terminate_fun output_terminate;
 } System;
-System this_osc = {{1000,1.0,0.0},ascii_output,ascii_output_initialize,ascii_output_terminate};
+System this_osc = {{1000,1.0,0.0},audio_output,audio_output_initialize,audio_output_terminate};
 
 Osc *
 get_parameters ()
