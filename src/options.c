@@ -1,4 +1,6 @@
 #include <unistd.h>
+#include <stdlib.h>
+#include "system.h"
 
 void
 manage_options (int argc, char*argv[])
